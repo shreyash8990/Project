@@ -1,5 +1,12 @@
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/AddBookController.java
 /home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/App.java
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/DashboardController.java
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/IssueBookController.java
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/LoginController.java
 /home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/Main.java
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/ReturnBookController.java
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/SearchDeleteController.java
+/home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/ViewBooksController.java
 /home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/dao/AdminDAO.java
 /home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/dao/BookDAO.java
 /home/jarvis/Classes/Project/LibraryManagementSystem/LibraryManagementSystem/src/main/java/com/library/dao/IssueBookDAO.java

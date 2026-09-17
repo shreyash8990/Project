@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.ViewBooksController" style="-fx-padding: 20;">
+    
+    <Label text="📚 Library Database" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    
+    <TableView fx:id="booksTable" prefHeight="300" prefWidth="550">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="40"/>
+            <TableColumn fx:id="titleColumn" text="Title" prefWidth="120"/>
+            <TableColumn fx:id="authorColumn" text="Author" prefWidth="100"/>
+            <TableColumn fx:id="publisherColumn" text="Publisher" prefWidth="90"/>
+            <TableColumn fx:id="categoryColumn" text="Category" prefWidth="80"/>
+            <TableColumn fx:id="isbnColumn" text="ISBN" prefWidth="90"/>
+            <TableColumn fx:id="totalCopiesColumn" text="Total" prefWidth="50"/>
+            <TableColumn fx:id="availableCopiesColumn" text="Avail" prefWidth="50"/>
+        </columns>
+    </TableView>
+    
+    <Button text="Back to Dashboard" onAction="#handleBackToDashboard" prefWidth="150" style="-fx-cursor: hand;"/>
+    
+</VBox>

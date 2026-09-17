@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.IssueBookController" style="-fx-padding: 20;">
+    
+    <Label text="🎓 Issue Book to Student" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    
+    <TextField fx:id="bookIdField" promptText="Book ID Number" maxWidth="250"/>
+    <TextField fx:id="studentNameField" promptText="Student Name" maxWidth="250"/>
+    <TextField fx:id="studentPhoneField" promptText="Student Phone" maxWidth="250"/>
+    
+    <Button text="Issue Book" onAction="#handleIssueBook" prefWidth="150" style="-fx-cursor: hand; -fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+    
+    <Label fx:id="messageLabel" style="-fx-font-weight: bold;" />
+
+    <Button text="Back to Dashboard" onAction="#handleBackToDashboard" prefWidth="150" style="-fx-cursor: hand;"/>
+    
+</VBox>

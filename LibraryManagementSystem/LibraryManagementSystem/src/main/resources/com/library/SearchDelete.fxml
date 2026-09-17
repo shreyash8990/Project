@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.SearchDeleteController" style="-fx-padding: 20;">
+    
+    <Label text="🔍 Search &amp; Delete Book" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    
+    <HBox alignment="CENTER" spacing="10.0">
+        <TextField fx:id="searchField" promptText="Enter exact Book Title" prefWidth="200"/>
+        <Button text="Search" onAction="#handleSearchBook" style="-fx-cursor: hand;"/>
+    </HBox>
+
+    <Label fx:id="messageLabel" style="-fx-font-weight: bold;" />
+    
+    <!-- This label will hold the book details once found -->
+    <Label fx:id="bookDetailsLabel" style="-fx-border-color: gray; -fx-border-radius: 5; -fx-padding: 10;" prefWidth="300" prefHeight="120" alignment="TOP_LEFT" visible="false"/>
+    
+    <!-- The delete button is hidden until a book is actually found -->
+    <Button fx:id="deleteButton" text="🗑️ Delete This Book" onAction="#handleDeleteBook" prefWidth="200" style="-fx-background-color: #ff4c4c; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;" visible="false"/>
+    
+    <Button text="Back to Dashboard" onAction="#handleBackToDashboard" prefWidth="200" style="-fx-cursor: hand;"/>
+    
+</VBox>

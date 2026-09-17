@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<!-- The fx:controller links this design to your Java code -->
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.LoginController">
+    
+    <Label text="🔒 Library Management System" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    
+    <!-- Text fields for user input -->
+    <TextField fx:id="usernameField" promptText="Username" maxWidth="200"/>
+    <PasswordField fx:id="passwordField" promptText="Password" maxWidth="200"/>
+    
+    <!-- Button to trigger the login check -->
+    <Button text="Login" onAction="#handleLoginButtonAction" style="-fx-font-size: 14px; -fx-cursor: hand;"/>
+    
+    <!-- A hidden label to show error messages (like "Invalid Credentials") -->
+    <Label fx:id="messageLabel" textFill="red" />
+
+</VBox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
